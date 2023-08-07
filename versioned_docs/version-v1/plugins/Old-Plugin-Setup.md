@@ -6,7 +6,7 @@
 ### Server-Script
 server-script에서, 사용자가 Config를 통해 서버 프로그램을 받아오는 URL을 직접 사용할 수 있습니다. 방법은 간단합니다.
 
-1. server.sh.conf를 연다(없을 경우 스크립트를 한번 돌리거나 만든다)
+1. server.sh.conf를 연타(없을 경우 스크립트를 한번 돌리거나 만든다)
 2. `server=https://papermc.io/api/v2/projects/<project>/versions/<version>/builds/<build>/downloads/<downloads>`을 추가하거나 수정합니다.
   - (예: project - paper, version - 버전, build - 빌드번호, downloads - paper-버전-빌드번호.jar)
 3. 서버 실행
